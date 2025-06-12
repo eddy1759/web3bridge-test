@@ -1,54 +1,37 @@
-# React + TypeScript + Vite
+# Quiz Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A dynamic and engaging quiz game built with **React**, designed to test your knowledge across various topics.  
+This project was created as a submission for the developer screening assessment.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- **Dynamic Questions**: Questions are loaded from a mock JSON structure, simulating an API call.
+- **Interactive Gameplay**: Players can select one answer per question.
+- **Immediate Feedback**: Receive instant feedback—correct or incorrect—after each answer.
+- **Score Tracking**: Your score is tracked throughout the game.
+- **Final Score Display**: See your total score at the end of the quiz.
+- **Question Timer**: Each question has a 15-second timer to keep you on your toes!
+- **Responsive Design**: Enjoy a seamless experience on any device, thanks to Tailwind CSS.
+- **Visually Engaging**: A clean and modern interface to make the experience enjoyable.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🛠 Getting Started
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### 📦 Prerequisites
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- **Node.js**  
+- **npm** (comes with Node.js) or **yarn**
+
+---
+
+## 🔧 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/eddy1759/web3bridge-test.git
